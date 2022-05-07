@@ -1,0 +1,188 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*padding i margine se ne dodaju na širinu elementa */
+}
+
+/* Main styling */
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0; /*10px je gore-dolje, 0 je lijevo-desno*/
+}
+
+/*utility classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+.text-primary {
+    color: rgb(101, 66, 255);
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff1966;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#navbar {
+    background-color: #333;
+}
+
+#navbar a {
+    color: #333
+}
+
+#navbar img {
+    float: left;
+    padding: 20px 0;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.btn-sign-up {
+    background-color: #3366ff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#intro {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#box-left {
+    float: left;
+    width: 27%;
+}
+
+#box-right {
+    float: right;
+    width: 70%;
+}
+
+#partners {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#partners img {
+    max-width: 900px;
+}
+
+#features {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features #box-1,
+#features #box-2,
+#features #box-3 {
+    float: left;
+    width: 25%
+}
+
+#features #box-4 {
+    float:right;
+    width: 25%;
+}
+
+.feature-content img {
+    height: 94px;
+}
+
+#testimonial {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+#testimonial .testimonial-content {
+    text-align: center;
+}
+
+#testimonial .testimonial-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#testimonial .testimonial-content img {
+    height: 120px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: deeppink;
+    color: #fff;
+    font-size: 20px;
+}
+
+.dogcooking {
+    background-color: #f4f1ff;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.btndonate {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #a319ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.centered {
+    align-self: center;
+    align-tracks: center;
+    align-content: center;
+    align-items: center;
+}
